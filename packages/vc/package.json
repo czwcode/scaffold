@@ -1,0 +1,32 @@
+{
+  "name": "vc",
+  "version": "0.0.1",
+  "description": "",
+  "sideEffects": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "coverage": "jest --coverage",
+    "prettier": "prettier",
+    "build": "tsc -p ./tsconfig.build.json",
+    "watch": "tsc --watch -p ./tsconfig.build.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.9",
+    "@types/react": "^16.9.15",
+    "@types/react-dom": "^16.x",
+    "jest": "^26.2.2",
+    "ts-jest": "^26.1.4",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "gitHead": "b1d68ee7874079cca39199d695bf0b05d4487bf8"
+}
